@@ -29,7 +29,6 @@ int main(int argc, char **argv) {
   wm_init_xcb();
   atexit(cleanup);
   if (signal(SIGINT, handle_signals) == SIG_ERR) {
-    wm_kill_xcb();
     errx(EXIT_FAILURE, "Cannot register signal handler.");
   }
   
