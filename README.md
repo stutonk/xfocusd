@@ -7,8 +7,11 @@ focused window close' and places new windows centered under the mouse pointer.
 Whenever a new window receives focus, its window id is printed to STDOUT in
 order to facilitate interoperation with other scripts.
 
-### Usage
+## Usage
 xfocusd has no command line options
 
-### Building and Installation
+## Building
+#### Dependencies
+[libxcb](https://xcb.freedesktop.org/), [libwm](https://github.com/wmutils/libwm)
+#### Installation
 make && make install
