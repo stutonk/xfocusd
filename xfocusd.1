@@ -1,0 +1,24 @@
+.TH XFOCUSD 1 "20 September, 2017" "" ""
+
+.SH NAME
+xfocusd
+
+.SH SYNOPSIS
+A simple and orthogonal X focus manager
+
+.SH DESCRIPTION
+xfocusd institutes the policy of 'focus follows mouse; focus new windows; focus
+top window upon focused window close' and places new windows centered under the
+mouse pointer. Whenever a new window receives focus, its window id is printed
+to STDOUT in order to facilitate interoperation with other scripts.
+
+.SH OPTIONS
+None
+
+.SH NOTES
+Sending
+.B SIGINT
+will terminate the process gracefully.
+
+.SH SEE ALSO
+.B wmutils(1)
