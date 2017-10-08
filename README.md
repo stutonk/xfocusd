@@ -14,4 +14,4 @@ xfocusd has no command line options
 #### Dependencies
 [libxcb](https://xcb.freedesktop.org/), [libwm](https://github.com/wmutils/libwm)
 #### Installation
-make && make install
+`make && make install`
